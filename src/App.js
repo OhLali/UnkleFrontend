@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import tooltip from './component/tooltip'
+import Tooltip from './component/tooltip'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <Tooltip></Tooltip>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
